@@ -22,7 +22,7 @@ dino = (nome)
 todas_as_sprites.add(nome)
 
 relogio = pygame.sprite.Group()
-while true:
+while True:
     relogio.tick(30)
     tela.fill(branco)
     for event in pygame.event.get():

@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import*
+from pygame.locals import *
 from sys import exit
 
 largura = 640
@@ -12,16 +12,17 @@ tela = pygame.display.set_mode((largura,altura))
 
 pygame.display.set_caption('nome')
 
-class nome(pygame.sprite.Sprite):
+class Nome(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         pass
     
 todas_as_sprites = pygame.sprite.Group()
-dino = (nome)
+nome = (Nome)
 todas_as_sprites.add(nome)
 
 relogio = pygame.sprite.Group()
+
 while True:
     relogio.tick(30)
     tela.fill(branco)

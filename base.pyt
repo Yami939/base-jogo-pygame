@@ -10,7 +10,7 @@ preto = (0,0,0)
 
 tela = pygame.display.set_mode((largura,altura))
 
-pygame.display.set_caption('rundinozauro')
+pygame.display.set_caption('nome')
 
 class nome(pygame.sprite.Sprite):
     def __init__(self):
